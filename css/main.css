@@ -1,0 +1,30 @@
+body
+{
+	padding-top: 150px;
+	background-color: #222;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+#console {
+	margin: 0 auto;
+	background-color: #1d428a;
+	color: #fff;
+}
+
+#input, #output {
+	width: 100%;
+}
+
+#input input, #input input:focus {
+	position: absolute;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	display: inline;
+	width: 100%;
+	margin-left: 5px;
+}
